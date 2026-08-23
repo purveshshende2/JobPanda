@@ -22,12 +22,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Setup (optional)
-
-- Copy `.env.example` → `.env` and add an **OpenAI API key** (only needed for tabs 3–4). Any OpenAI-compatible endpoint works (Groq, Ollama, etc.).
-- ATS scoring (tab 2) needs **no key at all**.
-- For live job listings, get free Adzuna keys at https://developer.adzuna.com.
-
 ## How to use
 
 1. **Tab 1**: upload resume (PDF/DOCX/TXT) + paste JD → click *Run ATS Analysis*.
